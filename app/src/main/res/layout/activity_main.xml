@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="hello_world"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button_heart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Heart Beat" />
+
+    <Button
+        android:id="@+id/button_heal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Heal The World" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Playing" />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ToggleButton
+        android:id="@+id/button_sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="Click to Activate Sound Sensor"
+        android:textOn="Click to Deactivate Sound Sensor" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_sound_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound level: " />
+
+    <SeekBar
+        android:id="@+id/sound_threshold_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
